@@ -132,5 +132,5 @@ WIN_COMBINATIONS = [
     end
     
     if won?(board)
-      puts "Congratulations "
+      puts "Congratulations #{winner(board)}!"
   end 
