@@ -125,3 +125,7 @@ WIN_COMBINATIONS = [
       end
     end
   end
+  
+  def play(board)
+    
+  end 
