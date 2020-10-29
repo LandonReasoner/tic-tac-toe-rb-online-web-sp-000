@@ -127,5 +127,7 @@ WIN_COMBINATIONS = [
   end
   
   def play(board)
-    until over?
+    until over?(board) == true 
+      turn(board)
+      
   end 
